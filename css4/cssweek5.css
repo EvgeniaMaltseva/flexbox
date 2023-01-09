@@ -1,0 +1,108 @@
+body {
+    background: #c7b39b url(/images/bartling.png); /* Цвет фона и путь к файлу */;
+    color: #fff; /* Цвет текста */ 
+    background-size: 100%;
+}
+.banner {
+    background-color: bisque;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+.info {
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.nav {
+    width: 100%;
+    }
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    min-width: 20%;
+    min-height: 35px;
+}
+.logo {
+    background:bisque;
+    width: 260px;
+    height: 270px;
+    border: 1px solid bisque; /* Параметры рамки */
+     border-radius: 0 0 20px 20px; /* Радиус скругления */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position:absolute;
+    top: 85px;
+    left: 35px;
+}
+.h3 {
+    border: 2px solid gray;
+    background:rgb(193, 187, 187);
+    padding: 2px;
+}
+.h4 {
+    font-style:italic;
+    font-size: 17pt;
+}
+    .main {
+        display: flex;
+}
+.content{
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    padding: 170px;
+    padding-top: 185px;
+}
+.gruss{
+    font-size:60pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    margin: 30px;
+    color:rgb(48, 168, 198);
+}
+.content1{
+    font-size: 17pt ;
+    color: rgb(10, 10, 10);
+    font-weight: 900;  
+    width: 55%;         
+    }
+.aside {
+    width: 4%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 45px;
+}
+.footer {
+    background-color: bisque;
+    min-height: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+}
+.important {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 30%;
+    height: 100px;
+    padding: 15px;
+    border: solid 1px ;
+    border-radius: 15px;
+}
